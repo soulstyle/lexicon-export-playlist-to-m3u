@@ -1,0 +1,26 @@
+{
+  "id": "soulstream.exportplaylist",
+  "author": {
+    "name": "David",
+    "discordUsername": "soulstamp",
+    "email": "david.s@soulstyle.se"
+  },
+  "actions": [
+    {
+      "id": "playlist.exportm3u",
+      "name": "Export Playlist to M3U8",
+      "description": "This action will write the selected playlist(s) to a plugin log file in a M3U8 format and replace file locations.",
+      "config": {
+        "permissions": {
+          "playlist": {
+            "read": ["selected"]
+          }
+        },
+        "settings": {
+          "Music Folder Path": null,
+          "New Folder Path": null
+        }
+      }
+    }
+  ]
+}
