@@ -1,4 +1,4 @@
-# README for Export Playlist to M3U - Lexicon Plugin
+# Export Playlist to M3U - Lexicon Plugin
 
 This plugin generates a m3u format playlist from one or more selected playlists and writes it to the plugin's log file. (Currently the only way to write files from a plugin in Lexicon)
 An option to replace file paths in the generated m3u data is provided.
