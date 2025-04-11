@@ -1,5 +1,5 @@
 {
-  "id": "soulstream.exportplaylist",
+  "id": "soulstream.actions",
   "author": {
     "name": "David",
     "discordUsername": "soulstamp",
@@ -13,7 +13,7 @@
       "config": {
         "permissions": {
           "playlist": {
-            "read": ["selected"]
+            "read": ["selected", "all"]
           }
         },
         "settings": {

@@ -60,7 +60,7 @@
 				<dict>
 					<key>COMMAND_STRING</key>
 					<string>for f in "$@"; do
-	/usr/bin/python3 /Users/soulstream/Documents/Lexicon/Plugins/export-playlist-to-m3u/process-m3u.py -i $f -o /Volumes/T7/Playlists/
+		/usr/bin/python3 /Users/soulstream/Documents/Lexicon/Plugins/dsoulstream/process-albumartist.py -i $f
 	rm $f
 done</string>
 					<key>CheckedForUserDefaultShell</key>
